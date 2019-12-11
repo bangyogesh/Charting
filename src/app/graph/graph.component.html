@@ -1,0 +1,25 @@
+<p>Google Chart Component</p>
+
+<google-chart (ready)="onReady()" #chart
+   [title]="title"
+   [type]="type"
+   [data]="data"
+   [columnNames]="columnNames"
+   [options]="options"
+   [width]="width"
+   [height]="height">
+</google-chart>
+
+<!--
+<button (click)="myClickFunction($event)" #mybutton1>
+   Click Me
+</button>
+-->
+
+<button (click)="myClickFunction3($event)" #mybutton2>
+      Table
+   </button>
+
+   <button (click)="myClickFunctionLine($event)" #mybuttonLine>
+      Line
+   </button>

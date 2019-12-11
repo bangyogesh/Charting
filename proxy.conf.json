@@ -1,0 +1,7 @@
+{
+  "/myapi": {
+    "target": "http://192.168.0.4:5001/book/scrips.xls/sheets/0/range/A1:D4",
+    "secure": false,
+    "changeOrigin": true
+  }
+}
